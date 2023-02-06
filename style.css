@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url(/img.jpg);
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  filter: blur(20px);
+  z-index: -1;
+}
